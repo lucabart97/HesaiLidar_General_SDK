@@ -27,8 +27,8 @@
 
 #include <boost/function.hpp>
 
-#include "pandarGeneral/pandarGeneral.h"
-#include "pandarGeneral/point_types.h"
+#include "pandarGeneral_sdk/pandarGeneral.h"
+#include "pandarGeneral_sdk/point_types.h"
 
 //class PandarGeneralSDK_Internal;
 

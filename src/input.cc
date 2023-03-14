@@ -25,15 +25,15 @@
 #include <iostream>
 #include <sstream>
 #include <time.h>
-#include "../util.h"
+#include "pandarGeneral_sdk/util.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
 #include <unistd.h>
 
-#include "input.h"
-#include "log.h"
+#include "pandarGeneral_sdk/input.h"
+#include "pandarGeneral_sdk/log.h"
 
 Input::Input(std::string deviceipaddr,uint16_t port, uint16_t gpsPort, std::string multicast_ip) {
   // LOG_D("port: %d, gpsPort: %d", port,gpsPort);

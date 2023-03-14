@@ -27,7 +27,7 @@
 
 #include <boost/function.hpp>
 
-#include "pandarGeneral/point_types.h"
+#include "pandarGeneral_sdk/point_types.h"
 #include "input.h"
 #include "pandarQT.h"
 #include "pandarXT.h"

@@ -34,8 +34,8 @@
 #include <linux/sockios.h>
 #include <net/if.h>
 #include <sys/ioctl.h>
-#include "src/util.h"
-#include "src/tcp_command_client.h"
+#include "pandarGeneral_sdk/util.h"
+#include "pandarGeneral_sdk/tcp_command_client.h"
 
 typedef struct TcpCommandClient_s {
   pthread_mutex_t lock;

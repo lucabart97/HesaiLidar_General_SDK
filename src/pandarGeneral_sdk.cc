@@ -15,10 +15,10 @@
  *****************************************************************************/
 
 #include "pandarGeneral_sdk/pandarGeneral_sdk.h"
-#include "src/tcp_command_client.h"
+#include "pandarGeneral_sdk/tcp_command_client.h"
 #include "yaml-cpp/yaml.h"
-#include "log.h"
-#include "version.h"
+#include "pandarGeneral_sdk/log.h"
+#include "pandarGeneral_sdk/version.h"
 #include <fstream>
 
 #define PANDARGENERALSDK_TCP_COMMAND_PORT (9347)
